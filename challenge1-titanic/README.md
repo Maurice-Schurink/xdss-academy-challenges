@@ -1,31 +1,33 @@
 # Challenge-titanic
-This repository is for training future data-scientists in "industry-like" environment. 
-
-## Instructions
-1. Fork this repository. 
-2. Read about the challenge and download the data.
-3. Write code to solve the problem.
-* Use branches (don't work on the GitHub master branch)
-4. Export the notebook to python script and push the notebooks and python script to GitHub.
-5. When having good results, create a pull request.
-6. I will comment on the changes.
-7. We reiterate with the comments until we're good to move forward to the next challenge. 
-
-## Challenge
 https://www.kaggle.com/c/titanic
+
+# Goal
 Get above 85% accuracy. 
 
 ### Phase 1
 
-Write a notebok to explore the dataset, make plots that you think is insightsful.
+Write a notebok to explore the dataset, make plots that you think are insightsful, and write the insights in the notebook.
 
 ### Phase 2
 
 Write a notebook to model the dataset and get 85% on the kaggle website.
+* Rememeber to split your data to three parts and the begining - train, validation, test. Use the train and validation to optimise your model and use the test data only once.
+* You can also replace the train\validation with [cross validation](https://www.openml.org/a/estimation-procedures/1)
+
+### Technologies:
+Build 6 solutions based on:
+1. [pandas](https://pandas.pydata.org/), [sklearn](http://scikit-learn.org/), [sklearn-pandas](sklearn-pandas),
+2. [xgboost](https://github.com/dmlc/xgboost) with pandas
+3. [lightGBM](https://github.com/Microsoft/LightGBM) with pandas
+4. [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/)
+5. [h2o](https://www.h2o.ai/) without pandas
+6. [turicreate](https://github.com/apple/turicreate) without pandas
+
 
 ### Phase 3
-write a server to provide predictios.
-the server should replay to the route `/predict`, and given an example, return if the example survived.
+Write a server to provide predictios.
+The server should replay to the route `/predict`, and given an example with features, return if the example survived.
+* You are welcome to provide a web interface as well if you want.
 
 
 ## Notes
