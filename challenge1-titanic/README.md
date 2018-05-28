@@ -11,7 +11,7 @@ Write a notebok to explore the dataset, make plots that you think are insightsfu
 ### Phase 2
 
 Write a notebook to model the dataset and get 85% on the kaggle website.
-* Rememeber to split your data to three parts and the begining - train, validation, test. Use the train and validation to optimise your model and use the test data only once.
+* Rememeber to split your data into three parts at the begining - train, validation, test. Use the train and validation to optimise your model and use the test data only once.
 * You can also replace the train\validation with [cross validation](https://www.openml.org/a/estimation-procedures/1)
 
 ### Technologies:
