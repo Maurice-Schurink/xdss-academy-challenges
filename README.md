@@ -13,7 +13,7 @@ This repository is for training future data-scientists in "industry-like" enviro
 ## Notes
 * The idea is to write good code which theoretically could be used for future deployments. 
 * This project is about training, not just results.  
-* Use Python, in a virtual environment, conda or pipenv, and [Jupyter](http://jupyter.org/).
+* Use Python, in a [virtual environment, pipenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/), or [conda](https://conda.io/docs/), and [Jupyter](http://jupyter.org/).
 * Always start by splitting the data into three parts: *train*, *validations* and *test*. You can use the *test* dataset **only once!** to prevent overfitting.
 * The example code already have issues in it - good luck!
 * Work with branches, not on the master in Github. 
