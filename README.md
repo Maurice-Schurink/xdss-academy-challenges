@@ -5,7 +5,6 @@ This repository is for training future data-scientists in "industry-like" enviro
 1. Fork this repository. 
 2. Read about each challenge and download the data.
 3. Write code to solve the problem.
-* Use branches (don't work on the GitHub master branch)
 4. Export the notebook to python script and push the notebooks and python script to GitHub.
 5. When having good results, create a pull request.
 6. I will comment on the changes.
